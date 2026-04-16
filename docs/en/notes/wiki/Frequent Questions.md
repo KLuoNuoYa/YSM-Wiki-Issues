@@ -191,6 +191,12 @@ If you encountered this, please check if your YSM is up to date (the latest vers
 
 If it is up to date, please contact the model author.
 
+## Mod crashes on startup; Java reports EXCEPTION_ILLEGAL_INSTRUCTION
+
+After version 2.2.2, the YSM mod uses the **AVX instruction set** to improve performance. This instruction set requires a CPU released **after 2010** to run. Older CPUs will trigger the `EXCEPTION_ILLEGAL_INSTRUCTION` error.
+
+You can either play a YSM version **before 2.2.2**, or upgrade your computer hardware if conditions permit.
+
 ## Can I Play YSM on Bedrock Edition or NetEase Edition
 
 Currently YSM for NetEase Edition is available. You can search `是，史蒂夫模型` in the store to download it for free!
